@@ -1,0 +1,31 @@
+{
+  "name": "insomnia-plugin-kafka-producer",
+  "version": "1.0.0",
+  "insomnia": {
+    "name": "insomnia-plugin-kafka-producer",
+    "description": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissoncarneiro-comitt/insomnia-plugin-kafka-producer.git"
+  },
+  "author": "Alisson Carneiro",
+  "license": "ISC",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "custom",
+    "kafka",
+    "Producer",
+    "callback",
+    "generate"
+  ],
+  "homepage": "https://github.com/alissoncarneiro-comitt/insomnia-plugin-kafka-producer",
+  "main": "index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "insomnia-plugin-utils": "^1.0.3",
+    "generate-object-from-avsc": "^0.0.5"
+  }
+}
